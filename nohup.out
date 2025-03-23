@@ -1,0 +1,56 @@
+✅ Database Connected!
+✅ Server running on http://localhost:8081
+2025-03-23T15:06:39.284811  0:00:00.038887 GET     [200] /users
+2025-03-23T15:06:47.347929  0:00:00.003292 GET     [200] /users
+2025-03-23T15:06:48.418126  0:00:00.002729 GET     [200] /users
+2025-03-23T15:06:49.048176  0:00:00.002325 GET     [200] /users
+2025-03-23T15:06:49.875285  0:00:00.002799 GET     [200] /users
+2025-03-23T15:06:50.709855  0:00:00.002500 GET     [200] /users
+2025-03-23T15:06:51.435409  0:00:00.002464 GET     [200] /users
+2025-03-23T15:06:52.232658  0:00:00.002708 GET     [200] /users
+2025-03-23T15:06:52.916466  0:00:00.001936 GET     [200] /users
+2025-03-23T15:07:29.197295  0:00:00.001981 GET     [200] /users
+2025-03-23T15:07:37.909152  0:00:00.003063 GET     [200] /users
+2025-03-23T15:09:58.649068  0:00:00.003398 GET     [200] /users
+2025-03-23T15:18:43.412122  0:00:00.008300 GET     [200] /users
+2025-03-23T15:44:54.491815  0:00:00.028796 GET     [200] /users
+2025-03-23T15:44:56.277878  0:00:00.008306 GET     [200] /users
+✅ Database Connected!
+Unhandled exception:
+SocketException: Failed to create server socket (OS Error: Address already in use, errno = 48), address = localhost, port = 8080
+#0      _NativeSocket.bind (dart:io-patch/socket_patch.dart:1032:7)
+<asynchronous suspension>
+#1      _RawServerSocket.bind.<anonymous closure> (dart:io-patch/socket_patch.dart:1818:15)
+<asynchronous suspension>
+#2      _ServerSocket.bind.<anonymous closure> (dart:io-patch/socket_patch.dart:2103:15)
+<asynchronous suspension>
+#3      _HttpServer.bind.<anonymous closure> (dart:_http/http_impl.dart:3197:27)
+<asynchronous suspension>
+#4      serve (package:shelf/shelf_io.dart:62:16)
+<asynchronous suspension>
+#5      main (package:bloc_learning/server.dart:24:18)
+<asynchronous suspension>
+✅ Database Connected!
+✅ Server running on http://localhost:8080/users
+✅ Database Connected!
+Unhandled exception:
+SocketException: Failed to create server socket (OS Error: Address already in use, errno = 48), address = localhost, port = 8080
+#0      _NativeSocket.bind (dart:io-patch/socket_patch.dart:1032:7)
+<asynchronous suspension>
+#1      _RawServerSocket.bind.<anonymous closure> (dart:io-patch/socket_patch.dart:1818:15)
+<asynchronous suspension>
+#2      _ServerSocket.bind.<anonymous closure> (dart:io-patch/socket_patch.dart:2103:15)
+<asynchronous suspension>
+#3      _HttpServer.bind.<anonymous closure> (dart:_http/http_impl.dart:3197:27)
+<asynchronous suspension>
+#4      serve (package:shelf/shelf_io.dart:62:16)
+<asynchronous suspension>
+#5      main (package:bloc_learning/server.dart:24:18)
+<asynchronous suspension>
+2025-03-23T16:15:28.479286  0:00:00.031563 GET     [200] /users
+2025-03-23T16:15:32.104253  0:00:00.000482 GET     [404] /apple-touch-icon-precomposed.png
+2025-03-23T16:15:32.110666  0:00:00.000121 GET     [404] /apple-touch-icon.png
+2025-03-23T16:15:32.113576  0:00:00.000080 GET     [404] /favicon.ico
+2025-03-23T16:15:32.245405  0:00:00.000077 GET     [404] /apple-touch-icon-precomposed.png
+2025-03-23T16:15:32.246984  0:00:00.000044 GET     [404] /apple-touch-icon.png
+2025-03-23T16:15:32.247841  0:00:00.000036 GET     [404] /favicon.ico
